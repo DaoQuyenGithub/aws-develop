@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_HOST: project3udacity.c29prjujuffn.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_PROFILE: default
+  AWS_BUCKET: test-698161925490-dev
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  URL: http://a3ae1ea4b5d7e4eacbeb4ea90843f64e-1124954678.us-east-1.elb.amazonaws.com:8100
